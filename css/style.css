@@ -245,7 +245,6 @@ section.dark .section-title::after{
     margin: 20px 10px;
     padding: 40px 20px;
     perspective: 1000px;
-    text-align: center;
     cursor: pointer;
     margin: auto;
     transition: .3s linear;
@@ -270,7 +269,6 @@ section.dark .section-title::after{
     position: absolute;
     width: 100%;
     height: 100%;  
-    text-align: center;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
   }
@@ -294,7 +292,12 @@ section.dark .section-title::after{
     transform: rotateY(180deg);
   }
 
-
+  #acco{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 125%;
+    font-weight: 700;
+  }
 
 
 .services h4{
@@ -405,4 +408,11 @@ section.dark .section-title::after{
         width: 80%;
         margin-bottom: 50px;
     }
+  }
+
+  #card-text{
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 2;
+      margin: 0px 20px 0px 20px;
   }
